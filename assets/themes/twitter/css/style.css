@@ -1,15 +1,23 @@
+@font-face{ 
+	font-family: 'call_me_maybe';
+	src: url('../font/call_me_maybe.eot');
+	src: url('../font/call_me_maybe.eot?#iefix') format('embedded-opentype'),
+	     url('../font/call_me_maybe.woff') format('woff'),
+	     url('../font/call_me_maybe.ttf') format('truetype'),
+	     url('../font/call_me_maybe.svg#webfont') format('svg');
+}
 /* Override some defaults */
 html, body {
   background-color: #eee;
 }
-.navbar {
-  margin-bottom: 0;
-}
+
 .container > footer {
   margin-top: 20px;
 }
 .container > footer p {
-  text-align: center; /* center align it with the container */
+  text-align: center;  /*center align it with the container */
+  font-family: 'call_me_maybe';
+  font-size: 18px;
 }
 
 /* The white background content wrapper */
