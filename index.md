@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Title Test
+title: About me
 description: This is Yi FU's personal website, welcome 
 theme :
   name : tudou
