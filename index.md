@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About me
-description: This is Yi FU's personal website, welcome 
+description: This is Yi FU's technical website
 theme :
   name : tudou
 ---
@@ -19,9 +19,12 @@ theme :
 	</p>
 	<p><em>Expertise</em>: Android, J2EE, PHP5, Python, LAMP, Web Architecture, System Modeling, Technical Team Leading, IT Project Management.</p>
 	<div id="contact">
-		<div><a href="https://www.facebook.com/yvesfu" target="_blank"><img src="{{ ASSET_PATH }}/img/facebook_logo.png" /></a></div>
-		<div><a href="https://twitter.com/yvesfu" target="_blank"><img src="{{ ASSET_PATH }}/img/twitter_logo.png" /></a></div>
-		<div><img src="{{ ASSET_PATH }}/img/skype_logo.png" /> yves_fu</div>
-		<div><a href="http://se.linkedin.com/in/bryanfu/" target="_blank"><img src="{{ ASSET_PATH }}/img/linkedin_logo.png" /></a></div>
+		<div><a href="https://www.facebook.com/yvesfu" target="_blank"><img src="{{ ASSET_PATH }}/img/facebook_logo.png" alt="yvesfu"/></a></div>
+		<div><a href="https://twitter.com/yvesfu"  target="_blank"><img src="{{ ASSET_PATH }}/img/twitter_logo.png" alt="yvesfu"/></a></div>
+		 <div><!-- stype button -->
+			<a href="skype:yves_fu?call"><img src="http://mystatus.skype.com/bigclassic/yves_fu" style="border: none;"  alt="My status" /></a>
+		</div>
+		<div><a href="http://se.linkedin.com/in/bryanfu/" target="_blank"><img src="{{ ASSET_PATH }}/img/linkedin_logo.png" alt="bryanfu"/></a></div>
 	</div>
 </div>
+<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
