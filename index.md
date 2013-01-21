@@ -22,7 +22,7 @@ theme :
 		<div><a href="https://www.facebook.com/yvesfu" target="_blank"><img src="{{ ASSET_PATH }}/img/facebook_logo.png" alt="yvesfu"/></a></div>
 		<div><a href="https://twitter.com/yvesfu"  target="_blank"><img src="{{ ASSET_PATH }}/img/twitter_logo.png" alt="yvesfu"/></a></div>
 		 <div><!-- stype button -->
-			<a href="skype:yves_fu?call"><img src="http://mystatus.skype.com/bigclassic/yves_fu" style="border: none;"  alt="My status" /></a>
+			<a href="skype:yves_fu?add"><img src="http://mystatus.skype.com/bigclassic/yves_fu" style="border: none;" width="182" height="44" alt="My status" /></a>
 		</div>
 		<div><a href="http://se.linkedin.com/in/bryanfu/" target="_blank"><img src="{{ ASSET_PATH }}/img/linkedin_logo.png" alt="bryanfu"/></a></div>
 	</div>
