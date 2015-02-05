@@ -1,13 +1,15 @@
 # Site settings
-title: Clean Blog
+title: Yi's technical Blog
+author: "Yi Fu"
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: yvesfu@gmail.com
+description: "Lazy, no description"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "blog.minus1.se"
+twitter_username: yvesfu
+github_username:  fuyi
+facebook_username:  yvesfu
+linkedin_user: yvesfu
 
 # Build settings
 markdown: kramdown

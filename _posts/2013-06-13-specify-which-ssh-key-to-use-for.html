@@ -1,0 +1,9 @@
+---
+title: "specify which ssh key to use for different target url"
+layout: "post"
+permalink: "/2013/06/specify-which-ssh-key-to-use-for.html"
+---
+
+<div class="css-full-post-content js-full-post-content">
+<div dir="ltr" style="text-align: left;" trbidi="on">I have both personal/company servers I need to connect using ssh. I don't want to mix them up with &nbsp;the default ssh key id_rsa; and also some server/service do NOT allow same ssh key for different account, for example: bitbucket (if you try to upload the same ssh for personal and company acocunt, it will complain for it).<br />In this case, having different ssh key and specify which key to use for which server is the solution.<br /><br />I created 2 keys called rsa_personal and rsa_company&nbsp;utilizing <a href="https://help.github.com/articles/generating-ssh-keys" rel="nofollow" target="_blank">ssh-gen</a> command.<br /><br />1) As these 2 keys are not the default one, to let ssh&nbsp;recognize them, I need to run the following command:<br /><br /><b>ssh-add ~/.ssh/rsa_personal</b><br /><b>ssh-add ~/.ssh/rsa_company</b><br /><br />This is very important step, otherwise, your ssh can not find them.<br /><br />2) Upload the pub key to your server seperately<br /><br />3) Now, edit ~/.ssh/config file (create it if not exist), then specify which server to use which key<br /><br />Host example.com<br />&nbsp; HostName example.com<br />&nbsp; User git<br />&nbsp; IdentityFile ~/.ssh/rsa_personal<br /><br />Host example2.com<br />&nbsp; HostName example2.com<br />&nbsp; User git<br />&nbsp; IdentityFile ~/.ssh/rsa_company<br /><br />Now you should be able to use different key to ssh different servers.<br /><br /><br />trouble shooting : &nbsp;<a href="http://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-without-using-ssh-config">http://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-without-using-ssh-config</a>&nbsp;</div>
+</div>

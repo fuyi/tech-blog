@@ -1,0 +1,9 @@
+---
+title: "viagogo API ruby client"
+layout: "post"
+permalink: "/2013/10/viagogo-api-ruby-client.html"
+---
+
+<div class="css-full-post-content js-full-post-content">
+<div dir="ltr" style="text-align: left;" trbidi="on">My current rails project requires integration with <a href="http://viagogo.com/" rel="nofollow" target="_blank">Viagogo</a>&nbsp;(online ticket marketplace for buying and selling live event tickets). besides they have a API (private instead of public), their are several technical barrier to use their API<br /><br />1) they use old-fashioned OAuth1 protocol, not the latest OAuth2 protocol<br />2) they don't fully follow OAuth1 specification, which makes it impossible to use standard oauth gem for authentication and make &nbsp;service call<br />3) unfortunately, they don't have a official client library, I can not find an unofficial one either.<br /><br />So, I have to write the ruby client all by myself. I have finished the first version and push to github and rubygems.org.<br /><br />This version is very basic, but allow you to avoid cumbersome authentication process and query events by free text<br /><br />Github: &nbsp;<a href="https://github.com/fuyi/viagogo-ruby-client" target="_blank">https://github.com/fuyi/viagogo-ruby-client</a><br />Rubygems &nbsp;<a href="http://rubygems.org/gems/viagogo" target="_blank">http://rubygems.org/gems/viagogo</a></div>
+</div>
