@@ -57,7 +57,7 @@ Now reload the page, the CORS error disappear, problem solved!
 
 **Conclusion**
 
-AWS is a powerful IAAS platform, cover many with the flebility to fulfil most of the user scenarios. but this flexibility comes with a price: some of the features are not very well documented or it does not cover all cases.
+AWS is a powerful IAAS platform, with the flebility to fulfil most of the user scenarios. but this flexibility comes with a trade off: some of the features are not very well documented or even does not covered at all.
 
 I have struggled with this problem for a couple of days, hopefully this post can save you some time if you encouter the same problem.
 
