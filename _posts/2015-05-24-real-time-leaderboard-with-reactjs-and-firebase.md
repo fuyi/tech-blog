@@ -24,8 +24,6 @@ Competitoin Leaderboard has several basic requirements
 
 # Get the work done
 
-This section 
-
 ## Brief introduction of Reactjs and Firebase
 
 ### Reactjs
@@ -86,4 +84,4 @@ __Happy coding!__
 [2]: https://www.spartasales.com
 [3]: https://www.firebase.com
 [4]: https://resplendent-inferno-6893.firebaseapp.com
-[5]: https://github.com/fuyi/leaderboard-react
+[5]: https://github.com/fuyi/leaderboard-react/releases/tag/react_firebase
