@@ -19,6 +19,6 @@ author:
 published: "false"
 ---
 
-<div class="css-full-post-content js-full-post-content">
-What is dependency injection,<br />What is the benefit ? <br />How to implement in PHP ?<br /><br />
-</div>
+What is dependency injection,
+What is the benefit ? 
+How to is DI implemented in Angular ?
