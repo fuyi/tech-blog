@@ -7,3 +7,7 @@ header-img: img/websitetools.jpg
 permalink: "/2015/06/10-essential-tools-for-efficient-frontend-web-development"
 
 ---
+
+console to run partial of code
+debugger
+database inspector
